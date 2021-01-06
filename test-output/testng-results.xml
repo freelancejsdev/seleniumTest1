@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31906" started-at="2020-06-11T15:30:37Z" finished-at="2020-06-11T15:31:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31906" started-at="2020-06-11T15:30:37Z" finished-at="2020-06-11T15:31:09Z">
+      <class name="TestCases.LoginExcelDataProvider">
+        <test-method status="PASS" signature="login(java.util.Hashtable)[pri:0, instance:TestCases.LoginExcelDataProvider@6b09bb57]" name="login" duration-ms="11896" started-at="2020-06-11T21:00:38Z" data-provider="getData" finished-at="2020-06-11T21:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=testing, username=alex@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.util.Hashtable)[pri:0, instance:TestCases.LoginExcelDataProvider@6b09bb57]" name="login" duration-ms="9803" started-at="2020-06-11T21:00:50Z" data-provider="getData" finished-at="2020-06-11T21:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=testing, username=automation1@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.util.Hashtable)[pri:0, instance:TestCases.LoginExcelDataProvider@6b09bb57]" name="login" duration-ms="9534" started-at="2020-06-11T21:00:59Z" data-provider="getData" finished-at="2020-06-11T21:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=testing, username=automation2@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testExcelData(java.util.Hashtable)[pri:0, instance:TestCases.LoginExcelDataProvider@6b09bb57]" name="testExcelData" duration-ms="1" started-at="2020-06-11T21:01:09Z" data-provider="getData" finished-at="2020-06-11T21:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=testing, username=alex@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExcelData -->
+        <test-method status="PASS" signature="testExcelData(java.util.Hashtable)[pri:0, instance:TestCases.LoginExcelDataProvider@6b09bb57]" name="testExcelData" duration-ms="1" started-at="2020-06-11T21:01:09Z" data-provider="getData" finished-at="2020-06-11T21:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=testing, username=automation1@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExcelData -->
+        <test-method status="PASS" signature="testExcelData(java.util.Hashtable)[pri:0, instance:TestCases.LoginExcelDataProvider@6b09bb57]" name="testExcelData" duration-ms="1" started-at="2020-06-11T21:01:09Z" data-provider="getData" finished-at="2020-06-11T21:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=testing, username=automation2@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExcelData -->
+      </class> <!-- TestCases.LoginExcelDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

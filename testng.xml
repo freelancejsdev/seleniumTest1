@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+
+    <listener class-name="listners.listners"/>
+    <listener class-name="report.ExtentReporterNG"/>
+
+  </listeners>
+
+  <test name="AddBookToCart" allow-return-values="true">
+    <classes>
+      <class name="TestCases.AddBookToCart"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <!--
+  <test name="Login" allow-return-values="true">
+    <classes>
+      <class name="TestCases.Login"/>
+    </classes>
+  </test>  Test -->
+
+  <!--
+    <test name="LoginExcelDataProvider" allow-return-values="true">
+      <classes>
+        <class name="TestCases.LoginExcelDataProvider"/>
+      </classes>
+    </test>  Test -->
+
+  <test name="RegisterUser" allow-return-values="true">
+    <classes>
+      <class name="TestCases.RegisterUser"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  <test name="SearchItem" allow-return-values="true">
+    <classes>
+      <class name="TestCases.SerachItem"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+</suite> <!-- Suite -->
